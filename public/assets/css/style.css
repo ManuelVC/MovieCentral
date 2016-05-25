@@ -19,19 +19,6 @@
 }
 
 /*Estilos para las categorias*/
-.cat-list{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: space-between;
-}
-.cat-list li a{
-	line-height: 4;
-}
 .cat-list li{
-	box-shadow: 0px 0px 0px 0px inset;
-}
-.cat-list li:hover{
-	box-shadow: 0px -3px 0px 0px #000 inset;
+	margin-bottom: 1em;
 }

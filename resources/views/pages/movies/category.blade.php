@@ -5,23 +5,24 @@
 @endsection
 
 @section('content')
-<div class="col-xs-10 col-xs-offset-1 cat">
-	<ul class="cat-list">
-		<li><a href="#">Acción</a></li>
-		<li><a href="#">Animación</a></li>
-		<li><a href="#">Aventura</a></li>
-		<li><a href="#">Ciencia Ficción</a></li>
-		<li><a href="#">Comedia</a></li>
-		<li><a href="#">Crimen</a></li>
-		<li><a href="#">Drama</a></li>
-		<li><a href="#">Fantasia</a></li>
-		<li><a href="#">Guerra</a></li>
-		<li><a href="#">Misterio</a></li>
-		<li><a href="#">Romance</a></li>
-		<li><a href="#">Suspenso</a></li>
-		<li><a href="#">Terror</a></li>
-		<li><a href="#">+ 18</a></li>
-	</ul>
+<div class="col-xs-10 col-xs-offset-1 cat" style="padding-top: 1em">
+	<ul class="portfolio-filter text-center cat-list">
+			<li><a class="btn btn-default" href="#" data-filter="*">Acción</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".bootstrap">Animación</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Aventura</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".wordpress">Ciencia Ficción</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Comedia</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Crimen</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Drama</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Fantasia</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Guerra</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Misterio</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Romance</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Suspenso</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">Terror</a></li>
+			<li><a class="btn btn-default" href="#" data-filter=".html">+ 18</a></li>
+			<li><a class="btn btn-default active" href="#" data-filter=".html">Todas</a></li>
+	</ul><!--/#portfolio-filter-->
 </div>
 <section class="content">
 	<div class="row">
