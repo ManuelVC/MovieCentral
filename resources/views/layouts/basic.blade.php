@@ -86,12 +86,12 @@
                 </div>
 
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary btn-block" id="enviar"><i class="fa fa-user"></i> Entrar</button>
-                    <a href="{{ url('user/account') }}" class="btn btn-block btn-default">Crear cuenta</a>
+                    <button type="submit" class="btn btn-primary btn-block" id="enviar"><i class="fa fa-sign-in"></i> Entrar</button>
+                    <a href="{{ url('account') }}" class="btn btn-block btn-default"><i class="fa fa-group"></i> Crear cuenta</a>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <a href="{{ url('user/reset') }}"><i class="fa fa-key"></i> Olvide mi contraseña</a>
+                        <a href="{{ url('reset') }}"><i class="fa fa-key"></i> Olvide mi contraseña</a>
                     </div>
                 </div>
             </form>
