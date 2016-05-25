@@ -10,4 +10,8 @@ Route::get('movies',function(){
 
 Route::get('movies/{category}',function(){
   return view('pages.movies.category');
-})->where('$category','^[a-z]+');
+})->where('category','^[a-z]+');
+
+Route::get('movies/{id}',function(){
+  return view('pages.movies.show');
+})->where('id','^[0-9]+');
